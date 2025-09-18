@@ -35,7 +35,7 @@ public class ListarDirectorio
             } else {
                 Permissions += "-";
             }
-            System.out.println(Type + Permissions + fichero.getFileName());
+            System.out.println(Type + Permissions + " " + fichero.getFileName());
         }
         } catch (IOException exception) {
             System.err.println(exception.getMessage() + " no es un directorio");
